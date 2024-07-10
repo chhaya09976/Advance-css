@@ -1,0 +1,47 @@
+.footer{
+    background-color: #333;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    &__navigation{
+        border-top: 2px solid #777;
+        
+    }
+    &__copyright{
+        border-top: 2px solid #777;
+        padding-top: 2rem;
+        float: right;
+        
+        
+    }
+
+    &__logo-box{
+       text-align: center;
+       margin-bottom: 8rem;
+    }
+    &__logo{
+        width: 12rem;
+        height: auto;
+    }
+    &__link{
+        text-decoration: none;
+        color: #f7f7f7;
+        text-transform: uppercase;
+    
+        &:hover,
+        &:active{
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem  rgba($color-black, .4);
+            // transform: rotate(8deg) scale(1.3);
+            // not working       
+        }   
+    }
+    &__list{
+        display: inline-flex;
+        list-style-type: none;
+        gap: 3.5rem;
+        padding-top: 2rem;
+    
+    }
+
+}
+
